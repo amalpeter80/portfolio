@@ -2,9 +2,7 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
-import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -13,31 +11,23 @@ const Contact = () => {
         <h1>CONTACT ME</h1>
         <div
           className="contact-icon"
-          data-aos="zoom-in-up"
+          data-aos="zoom-"
           data-aos-duration="1000"
         >
-          <a href="https://www.google.com" target="_blank" className="items">
+          <a href="https://www.instagram.com/amal_.ppete.r?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" className="items">
             <FaInstagram className="icons" />
           </a>
           <a href="https://www.google.com" target="_blank" className="items">
             <CiFacebook className="icons" />
           </a>
-          <a href="https://www.google.com" target="_blank" className="items">
+          <a href="https://www.linkedin.com/in/amal-peter-059559266/" target="_blank" className="items">
             <CiLinkedin className="icons" />
           </a>
-          <a href="https://www.google.com" target="_blank" className="items">
-            <FaSquareXTwitter className="icons" />
-          </a>
-          <a href="https://www.github.com" target="_blank" className="items">
+          
+          <a href="https://github.com/amalpeter80" target="_blank" className="items">
             <FaGithubSquare className="icons" />
           </a>
-          <a
-            href="mailto:webdevmastery@gmail.com"
-            target="_blank"
-            className="items"
-          >
-            <SiGmail className="icons" />
-          </a>
+         
         </div>
       </div>
     </>
